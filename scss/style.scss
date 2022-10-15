@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Regular.woff2") format("woff2"),
+    url("../fonts/Montserrat-Regular.woff") format("woff"),
+    url("../fonts/Montserrat-Regular.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Bold.woff2") format("woff2"),
+    url("../fonts/Montserrat-Bold.woff") format("woff"),
+    url("../fonts/Montserrat-Bold.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 700;
+}
+
+@import "./utils/variables";
+@import "./utils/mixin";
+
+@import "./base/common";
+
+@import "./nav";
+@import "./header";
+@import "./features";
+@import "./hero";
+@import "./team";
+@import "./partners";
+@import "./publications";
+@import "./footer";
