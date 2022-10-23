@@ -7,6 +7,7 @@
   list-style: none;
   transform: translateX(-50%);
 }
+
 .glide__bullet {
   background-color: rgba(36, 163, 255, 0.2);
   width: 16px;
@@ -28,18 +29,22 @@
 .glide__bullet:focus {
   outline: none;
 }
+
 .glide__bullet:hover,
 .glide__bullet:focus {
   background-color: rgb(36, 163, 255);
 }
+
 .glide__bullet--active {
   background-color: rgb(36, 163, 255);
 }
+
 .glide--swipeable {
   cursor: grab;
   cursor: -moz-grab;
   cursor: -webkit-grab;
 }
+
 .glide--dragging {
   cursor: grabbing;
   cursor: -moz-grabbing;
